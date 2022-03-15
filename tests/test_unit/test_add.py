@@ -1,4 +1,4 @@
-from example_package_le.main import custom_add
+from Example_Package_LE.main import custom_add
 
 def test_custon_add():
     assert custom_add(1,4) == 5
