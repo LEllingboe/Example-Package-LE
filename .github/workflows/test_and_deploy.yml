@@ -57,7 +57,7 @@ jobs:
           pip install -U build twine
       - name: Build and publish
         env:
-          TWINE_USERNAME: __token__
+          TWINE_USERNAME: lellingboe
           TWINE_PASSWORD: ${{ secrets.TWINE_API_KEY }}
         run: |
           python -m build
